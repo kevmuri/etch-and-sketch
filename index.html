@@ -9,6 +9,14 @@
 </head>
 <body>
     <div id="canvas"></div>
+    <div id="controls">
+        <button type="button" onclick="showPopup()">Reset or Resize</button>
+        <div class="popup" id="popup" style="display: none;">
+            <input type="range" min="1" max="100" class="slider" id="sizeSlider" value="16"><br>
+            <p id="counter">Size: 16x16</p>
+            <button type="button" id="sizeConfirm" onClick="resizeGrid()">Reset!</button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

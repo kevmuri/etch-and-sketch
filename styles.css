@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
 #canvas {
     display: flex;
     flex-direction: column;
@@ -19,4 +26,18 @@
 
 .pixel:hover {
     filter: brightness(80%);
+}
+
+button {
+    margin: 4px;
+    padding: 4px;
+}
+
+.popup {
+    background-color: gray;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
 }
