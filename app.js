@@ -3,7 +3,10 @@ function resetGrid (size) {
         const canvasRow = document.createElement("div");
         canvasRow.classList.add("canvasRow");
         document.getElementById("canvas").appendChild(canvasRow);
+        for (let j = 0; j < size; j++) {
+
         }
+    }
 }
 
 resetGrid(16);
