@@ -2,7 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center
+    align-items: center;
+    background-color: #85dcb8;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 #canvas {
@@ -10,6 +12,7 @@ body {
     flex-direction: column;
     width: 720px;
     height: 720px;
+    border: 1px solid black;
 }
 
 .canvasRow {
@@ -31,13 +34,23 @@ body {
 button {
     margin: 4px;
     padding: 4px;
+    width: 180px;
 }
 
 .popup {
-    background-color: gray;
+    background-color: #c38d9e;
+    border-radius: 8px;
 }
 
 #controls {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 4px;
+    margin: 4px;
+}
+
+.slider {
+    width: 360px;
 }
