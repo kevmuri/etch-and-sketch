@@ -7,8 +7,6 @@ slider.oninput = function () {
 
 }
 
-//slider.addEventListener("change", function(){updateSizeValue(this.value)});
-
 function resetGrid(size) {
     const canvas = document.getElementById("canvas")
 
