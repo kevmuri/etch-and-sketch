@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: #85dcb8;
+    background-image: radial-gradient(#85dcb8, whitesmoke);
     font-family: Arial, Helvetica, sans-serif
 }
 
